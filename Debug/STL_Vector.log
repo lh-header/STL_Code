@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/1/14 18:54:09。
+     1>项目“E:\VS2013\STLCode\STL_Vector\STL_Vector\STL_Vector.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "测试vector.cpp"
+         测试vector.cpp
+     1>e:\vs2013\stlcode\stl_vector\stl_vector\测试vector.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2013\stlcode\stl_vector\stl_vector\测试vector.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2013\stlcode\stl_vector\stl_vector\myvector.h(88): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\vs2013\stlcode\stl_vector\stl_vector\myvector.h(86): 编译类 模板 成员函数“void MyVector<int>::resize(int)”时
+                 e:\vs2013\stlcode\stl_vector\stl_vector\myvector.h(36): 参见对正在编译的函数 模板 实例化“void MyVector<int>::resize(int)”的引用
+                 e:\vs2013\stlcode\stl_vector\stl_vector\测试vector.cpp(8): 参见对正在编译的类 模板 实例化“MyVector<int>”的引用
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013\STLCode\STL_Vector\Debug\STL_Vector.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013\STLCode\STL_Vector\Debug\STL_Vector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013\STLCode\STL_Vector\Debug\STL_Vector.lib" /MACHINE:X86 "Debug\测试vector.obj"
+         STL_Vector.vcxproj -> E:\VS2013\STLCode\STL_Vector\Debug\STL_Vector.exe
+     1>已完成生成项目“E:\VS2013\STLCode\STL_Vector\STL_Vector\STL_Vector.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.99
